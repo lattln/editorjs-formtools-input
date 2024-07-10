@@ -50,8 +50,8 @@ import '@lattln/editorjs-formdep-styles/src/toolStyles.css';
 ## Utility Function and SVG Icons
 The block tool utilizes utility functions and SVG icons from the following packages
 
- Utility Functions `@lattln/editorjs-formdep-utils`
- SVG Icons `@lattln/editorjs-formdep-svgicons`
+ * Utility Functions `@lattln/editorjs-formdep-utils`
+ * SVG Icons `@lattln/editorjs-formdep-svgicons`
   
 These packages are automatically installed as dependencies. You can also use them independently if needed.
 
