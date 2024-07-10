@@ -1,0 +1,27 @@
+{
+  "name": "@lattln/editorjs-formtools-input",
+  "version": "1.0.3",
+  "description": "EditorJS custom form block tool - input",
+  "main": "src/inputBlock",
+  "author": "Lin Latt",
+  "license": "MIT",
+  "keywords": [
+    "EditorJS",
+    "Custom",
+    "Block",
+    "Tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lattln/editorjs-formtools-input.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-dep": "npm install @lattln/editorjs-formdep-styles@latest @lattln/editorjs-formdep-svgicons@latest @lattln/editorjs-formdep-utils@latest"
+  },
+  "dependencies": {
+    "@lattln/editorjs-formdep-styles": "^1.0.0",
+    "@lattln/editorjs-formdep-svgicons": "^1.0.4",
+    "@lattln/editorjs-formdep-utils": "^1.0.4"
+  }
+}
