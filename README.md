@@ -2,6 +2,10 @@
 
 EditorJS block tool for user input questions. This block tool allows you to add customizable user input questions to your EditorJS instance.
 
+
+![image](https://github.com/lattln/editorjs-formtools-input/assets/56560260/f9d10a94-ab83-4b99-9a6d-dd938e2c0091)
+
+
 ## Installation
 
 First, ensure you have `@editorjs/editorjs` installed as a peer dependency. Then, install `@lattln/editorjs-formtools-input` along with its dependencies.
@@ -35,22 +39,6 @@ const editor = new EditorJS({
 });
 ```
 
-## Tool Config
-```js
-const editor = new EditorJS({
-  holder 'editorjs',
-  tools {
-    inputQuestion {
-      class InputQuestion,
-      inlineToolbar true,
-      config {
-         Add any specific configuration for InputQuestion if needed
-      }
-    }
-  }
-});
-
-```
 
 ## CSS Styling
 The package includes default styles for the block tool. If you want to customize the styling, you can override the provided styles by importing the CSS file and adding your own custom styles.
