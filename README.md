@@ -30,11 +30,11 @@ import EditorJS from '@editorjs/editorjs';
 import InputQuestion from '@lattln/editorjs-formtools-input';
 
 const editor = new EditorJS({
-  holder 'editorjs',
+  holder: 'editorjs',
   tools {
     inputQuestion {
-      class InputQuestion,
-      inlineToolbar true,
+      class: InputQuestion,
+      inlineToolbar: true,
     }
   }
 });
@@ -61,6 +61,10 @@ to update the dependencies to their latest version, use the provided npm script
 ``` bash
 npm run update-dep
 ```
+
+## Acknowledgements
+
+I would like to express my gratitude to [Medical Informatics Engineering (MIE)](https://mieweb.org/) for their support and for providing the resources necessary to develop this project. Special thanks to the mentors who guided me throughout this journey with their invaluable insights and expertise. Your encouragement and assistance have been instrumental in the successful completion of this project.
 
 
 
