@@ -2,6 +2,7 @@
 
 EditorJS block tool for user input questions. This block tool allows you to add customizable user input questions to your EditorJS instance.
 
+https://www.npmjs.com/package/@lattln/editorjs-formtools-input
 
 ![image](https://github.com/lattln/editorjs-formtools-input/assets/56560260/81fec7f3-3207-48bf-a0c3-b0131d4b6910)
 
